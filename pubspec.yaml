@@ -1,0 +1,29 @@
+name: esakay_toda
+description: "eSakay TODA mobile application for drivers and passengers."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^6.2.1
+  latlong2: ^0.9.1
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  shared_preferences: ^2.2.3
+  geolocator: ^13.0.2     # Para sa GPS Location
+  http: ^1.2.0            # Idagdag mo rin ito para sa OpenStreetMap Geocoding
+  google_fonts: ^9.0.0
+  sqflite_common_ffi_web: ^1.2.0
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
